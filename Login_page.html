@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="Stylesheets/Login_Page.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="form-container">
+            <h3 id="main-header">Portfolios Portal</h3>
+            <form action="" class="login-form">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" aria-required="true" minlength="6" maxlength="20">
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" aria-required="true" minlength="8" required>
+                </div>
+                
+                <div class="role-department">
+                    <div class="form-group">
+                        <label for="role">Select role</label>
+                        <select id="role" name="role" required>
+                            <option value=""></option>
+                            <option value="faculty">Faculty</option>
+                            <option value="department_head">Department Head</option>
+                            <option value="dean">Dean</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="department">Department</label>
+                        <select id="department" name="department" required>
+                            <option value=""></option>
+                            <option value="Biology">Biology</option>
+                            <option value="Envi-Science">Envi-Science</option>
+                            <option value="Info-Tech">Info-Technology</option>
+                            <option value="Marine-Bio">Marine-Bio</option>
+                            <option value="Mathematics">Mathematics</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" id="login-button" class="primary-button" aria-label="Sign in to your account">Sign in</button>
+                </div>
+
+                <div class="register-link">
+                    <p>Don't have an account? <a href="Registration_page.html" target="_blank">Register here</a></p>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
