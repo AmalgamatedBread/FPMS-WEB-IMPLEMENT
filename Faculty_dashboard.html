@@ -4,8 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="Stylesheets/Faculty_dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    
+    <div class="dashboard-container">
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <h2>FPMS</h2>
+                <span>Department Faculty</span>
+            </div>
+
+            <ul class="sidebar-menu">
+                <div class="top-section">
+                    <li class="active"><i class="fas fa-chart-bar"></i> Dashboard</li>
+                    <li title="Portfolios"><i class="fas fa-folder"></i> Portfolios</li>
+                    <li><i class="fas fa-share"></i> Forward Documents</li>
+                    <li><i class="fas fa-bell"></i> Notifications</li>
+                </div>
+                <div class="bottom-section">
+                    <li id="bin"><i class="fas fa-trash"></i> Bin</li>
+                    <li id="Settings"><i class="fas fa-cog"></i> Settings</li>
+                </div>
+            </ul>
+        </nav>
+
+        <main class="main-content">
+            <header class="header">
+                <h1>Faculty Dashboard</h1>
+                <div class="user-info">
+                    <span class="user-name">Prof. Example Exam</span>
+                    <div class="avatar">EE</div>
+                    <span class="role-badge">Faculty</span>
+                </div>
+            </header>
+        </main>
+    </div>
 </body>
 </html>
